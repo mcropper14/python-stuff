@@ -1,0 +1,51 @@
+print("Hello World")
+print('more string')
+print('3')
+
+a = 1
+print(a)
+
+b = 2
+print(b)
+
+print(a)
+print(b)
+
+c = "hello there"
+print(c)
+
+d = 2 
+b = 1 
+b = "ahhhhhhhhh"
+
+print(b)
+
+e = "this is a string"
+print(e)
+
+a=1
+c = "hello world"
+
+f = a
+a = 2
+
+g = c
+
+v1 = "first string"
+v2 = "second string"
+
+v1 = "second string"
+v2 = "first string"
+
+temp1 = v1
+temp2 = v2
+
+v1 = temp2
+v2 = temp1
+
+temp = v1
+v1 = v2
+v2 = temp
+
+print(v1j
+print(v2)
