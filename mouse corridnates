@@ -1,0 +1,27 @@
+// mouse movements
+
+import ctypes as c
+import time
+import math
+
+class Piont(c.structure);
+def mouse_movements(pos);
+    x_pos, y_pos = pos
+
+screen_ctypes.osx.GetSystemMetrics(1)
+_field_ = [ 
+    x = 65536L * x_pos / screen_size[0] + 1
+    y = 65536L * y_pos / screen_size[1] + 1
+    _field_ =  ]
+   
+    move to(top_left_corner, bottom_right_corner, min_speed=100, max_speed=200):
+    moveRel(xOffset, yOffset)
+    // speed in pixels per second
+    
+    x_bound = top_left_corner[0], bottom_right_corner[0]
+    y_bound = top_left_corner[1], bottom_right_corner[1]
+    
+    pos = (
+   
+    speed = main_speed + random.random()*(max_speed-min_speed)
+    direction = 2*math.pi*()
