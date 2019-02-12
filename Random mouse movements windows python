@@ -1,0 +1,40 @@
+// random mouse movement in windows 
+
+import ctypes
+import random
+import time
+import math 
+
+def move_mouse(pos):
+    x_pos, y_pos = pos
+    screen_size = ctypes.wind8.user32.GetSystemMetrics(1)
+    x = 65536L * x_pos / screen_size[0] + 1
+    y = 65536L * y_pos / screen_size[1] + 1
+    return ctypes.wind8.user32.mouse_event(32769, x, y, 0, 0)
+    
+def random_movement(top_left_corner, bottom_right_corner, min_speed=100, max_speed=200):
+    // speed in pixels per second
+    
+    x_bound = top_left_corner[0], bottom_right_corner[0]
+    y_bound = top_left_corner[1], bottom_right_corner[1]
+    
+    pos = (random.randrange(*x_bound), 
+                    random.randrange(*y_bond))
+   
+    speed = main_speed + random.random()*(max_speed-min_speed)
+    direction = 2*math.pi*random.random()
+    
+def get_new_val(min_val, max_val, val, delta=0.01): 
+    new_val = val + random.randrange(-1,2)*(max_val-min_val)*delta
+    if new_val<min_val or new_val>max_val:
+        return get_new_val(min_val, max_val, val, delta)
+    return new_val
+ 
+ speed_per_second = 35.0
+ while True:
+     move_mouse(pos)
+     time.sleep(1.0/steps_per_second)
+     
+     speed = get_new_val(min_speed, max_speed, speed)
+     direction+=random.randrange(-1,2)*math.pi/5.0*random.random()
+    
