@@ -1,3 +1,5 @@
+// works on keyboard on iPad
+
 int position = 0;
 System.out.print("move: ");
 String car = Global.keyboard.nextLi
