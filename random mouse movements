@@ -1,5 +1,4 @@
-// random mouse movement in windows 
-
+// random mouse movement 
 import ctypes as c 
 import random
 import time
@@ -8,12 +7,13 @@ import math
 class Point(c.Structure);
 def move_mouse(pos):
     x_pos, y_pos = pos 
+    
     screen_size = ctypes.iosx.GetSystemMetrics(1)
     _field_ = [ 
     x = 65536L * x_pos / screen_size[0] + 1
     y = 65536L * y_pos / screen_size[1] + 1
     return ctypes.iosx.mouse_event(32769, x, y, 0, 0)
-    _field_ = ]
+    _field_ =  ]
     def random_movement(top_left_corner, bottom_right_corner, min_speed=100, max_speed=200):
     // speed in pixels per second
     
