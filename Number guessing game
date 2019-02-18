@@ -1,0 +1,31 @@
+// python game
+
+#!/usr/bin/env python3
+import random 
+number = random.randint(1,10)
+tries = 1
+name = input("Insert your name:")
+print("Hello", name)
+question = input("Would you like to play a game?[Y/N]")
+
+while question != "n" and question! = "y":
+    question = input("Would you like to play a game?[Y/N"0
+    if question =="n";
+    print("Okay, next time perhaps.")
+    exit()
+if question =="y":
+    print("Think of the number from 1 to 10")
+    go_number = int(input("Input number here: "))
+    
+if go_number > number:  
+    print("Think of lower")
+if go_number < number:
+    print("Think of higher")
+
+while go_number!= number
+    tries+=1
+    go_number = int(input("Try again: "))
+    if go_number > number
+    print("Think of lower")
+ if go_number == number
+    print("The number is: ", number, "Good job young padawan", name, "you're a master. You had", tries, "tries.")
