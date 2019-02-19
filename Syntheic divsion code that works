@@ -7,16 +7,16 @@ def extended_synthetic_division(dividend, divisor):
     normalizer = divisor[0]
     for i in xrange(len(dividend)-(len(divisor)-1)):
         out[i] /= normalizer # for general polynomial division (when the coefficient isn't one),
-                             # we need to normalize by dividing the coefficient with the divisor's first coefficient
+                             # normalize by dividing the coefficient with the divisor's first coefficient
         coef = out[i]
         if coef != 0: # useless to multiply if coef is 0
-            for j in xrange(1, len(divisor)): # in synthetic division, skip the first coefficient of the divisor,
+            for j in xrange(1, len(divisor)): # skip the first coefficient of the divisor,
                                           # because it's only used to normalize the dividend coefficients
                 out[i + j] += -divisor[j] * coef
 
     # The result contains both the quotient and remainder, the remainder is the size of the divisor (the remainder
     # has the same degree as the divisor since it's what couldn't be divided from the dividend), so compute the index
-    # where this separation is, and return the quotient and remainder.
+    # return the quotient and remainder.
     separator = -(len(divisor)-1)
     return out[:separator], out[separator:] # return quotient, remainder.
 
