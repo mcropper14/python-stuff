@@ -1,0 +1,29 @@
+print ("board") 
+print ("The board looks like this") 
+for i in range (3):
+  print ("") for j
+  in range (3):
+    if board [i * 3 + j] = = 1
+	print ("X") 
+	break 
+	    elif board[i * 3 + j] = = 0 
+	     print ("O") elif
+         board[i * 3 + j] = = -1
+         print board[i * 3 + j] = = 1
+         else
+         print ("") 
+         if i! = 2:
+         print ("|") 
+    print elif i = 2 
+    print ("----------") 
+    def print_instruction ():
+         print ("Follow the instructions") 
+         print ("Use the following spaces to make your move") 
+         print_board ([1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10]) 
+         def get_input (turn):
+
+  valid = False
+    while not
+  valid:
+  try:
+     user = raw_input print ("Take your move") user = int (user)
