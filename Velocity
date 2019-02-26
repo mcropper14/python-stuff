@@ -1,0 +1,15 @@
+values = [[2,-1,], [0,1], [2,-1]]
+last values = [0,0]
+last_velocity = 0
+delta = 0.1 #need to editvalue 
+terminal_velocity = none
+for pos, time in values:
+    velocity = (pos - last_values[0]) / (time - last_values[1])
+    if abs(velocity - last_velocity) < delta:
+        terminal_velocity = velocity
+        break
+     last_values = [pos,time]
+     last_velocity = velocity
+     
+print("Terminal Velocity:"), terminal_velocity        
+
