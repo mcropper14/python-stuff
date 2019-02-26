@@ -1,15 +1,23 @@
-values = [[2,-1,], [0,1], [2,-1]]
+print("Enter data values")
+data_values = [[2,-1,], [0,1], [2,-1]]
+values = [x,y], [x,y], [x,y], [x,y]
+print("Enter first value")`
 last values = [0,0]
+print("Enter last value")
 last_velocity = 0
-delta = 0.1 #need to editvalue 
-terminal_velocity = none
+pos = 0
+delta = 0.1 
+terminal_velocity = none        
 for pos, time in values:
     velocity = (pos - last_values[0]) / (time - last_values[1])
-    if abs(velocity - last_velocity) < delta:
+    if abs(velocity - last_velocity) < (delta:)
         terminal_velocity = velocity
         break
-     last_values = [pos,time]
-     last_velocity = velocity
+     first_velocity = velocity
+     last_values = [pos, time]
+     last_values = velocity 
+     elif:   
      
-print("Terminal Velocity:"), terminal_velocity        
+     first_values = [pos,time]
+print("Velocity")   
 
