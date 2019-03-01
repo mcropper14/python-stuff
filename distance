@@ -1,14 +1,75 @@
 # find velocity 
 
-    velocity = (pos - last_values[0]) / (time - last_values[1])
+print("Find Velocity")
+   def velocity = (pos - last_values[0]) / (time - last_values[1])
     if abs(velocity - last_velocity) < (delta:)
         terminal_velocity = velocity
         break
      first_velocity = velocity
      last_values = [pos, time]
      last_values = velocity 
-     
-     first_values = [pos,time]
+     return total
 print("Velocity")   
-def add(x + y)
-return x + y 
+ 
+# find time 
+
+print("Find time")   
+   return total
+   time = x 
+   for x in given value multiply first velocity 
+   return sum(velocity * time)
+   def time_velocity = (velocity * time)
+   return(velocity * time)
+print("Time")   
+   
+# add 1/2
+
+print("+1/2")
+    def add(+1/2)
+    retun sum
+    for 1/2 in given values:
+       elif (velocity * time) = final time
+       for def time + 1/2
+       add sum(velocity * time + 1/2)
+       return sum 
+       
+# find acceleration 
+    
+ print("Find acceleration")   
+    return total 
+    if abs(net_force - last_net_force)
+    if mass(mass - last_mass)
+    def acceleration = (net_force - last_values[0]) / (mass - last_values[1])
+    return sum    
+       break 
+    last values = (net_force, mass)
+    last_values = acceleration
+    return total 
+    print("
+    
+ # muliptly acceleration * time 
+    return total 
+    if:
+    def sum = (velocity * time + 1/2)
+    def multiply(acceleration * time)
+    return sum
+       break 
+     def total = (velocity * time + 1/2)
+     return total
+     
+  # time 
+  print("Time")
+  return total 
+  if:
+  def total = (velocity * time + 1/2)
+  def multiply(time * time)
+  return sum
+     break 
+   return total 
+   def total = (velocity * time + 1/2 * acceleration * time * time)
+   return total
+   def distance = def total 
+ 
+ 
+  
+    
