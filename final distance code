@@ -29,10 +29,11 @@ print("+1/2")
     retun sum
     for 1/2 in given values:
        elif (velocity * time) = final time
-       for def time + 1/2
-       add sum(velocity * time + 1/2)
-       return sum 
-       
+       break 
+           for def time + 1/2
+           add sum(velocity * time + 1/2)
+           return sum 
+        
 # find acceleration 
     
  print("Find acceleration")   
@@ -41,11 +42,11 @@ print("+1/2")
     if mass(mass - last_mass)
     def acceleration = (net_force - last_values[0]) / (mass - last_values[1])
     return sum    
-       break 
-    last values_net_force = (net_force, mass)
-    last_values_acceleration = (net_force/mass)
-    def total = (velocity * time + 1/2)
-    return total 
+    break 
+        last values_net_force = (net_force, mass)
+        last_values_acceleration = (net_force/mass)
+        def total = (velocity * time + 1/2)
+        return total 
     print("acceleration")
     
  # muliptly acceleration * time 
@@ -55,8 +56,8 @@ print("+1/2")
     def multiply(acceleration * time)
     return sum
        break 
-     def total = (velocity * time + 1/2 * acceleration * time)
-     return total
+       def total = (velocity * time + 1/2 * acceleration * time)
+       return total
      
   # time 
   print("Time")
@@ -65,8 +66,8 @@ print("+1/2")
   def total = (velocity * time + 1/2)
   def multiply(time * time)
   return sum
-     break 
-   return total 
-   def distance = (velocity * time + 1/2 * acceleration * time * time)
-   def total = def distance 
+      break 
+      return total 
+      def distance = (velocity * time + 1/2 * acceleration * time * time)
+      def total = def distance 
  print("Found distance")
